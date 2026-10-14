@@ -143,7 +143,9 @@ def main():
     save_tickets()
 
     if os.environ.get("RUN_UNSAFE_DEMO") == "1":
-        print("Unsafe demo disabled; arbitrary code execution is not supported.")
+        print(
+            "Unsafe demo disabled; arbitrary code execution is not supported."
+            )
 
 
 if __name__ == "__main__":
